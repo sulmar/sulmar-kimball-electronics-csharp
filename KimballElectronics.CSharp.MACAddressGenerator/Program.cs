@@ -45,7 +45,9 @@ namespace KimballElectronics.CSharp.MACAddressGenerator
 
             writer.WriteLine("SerialNumber,MACAddress,Timestamp");
 
-            for(int index = 1; index <= quantity; index++)
+            Random random = new Random();
+
+            for (int index = 1; index <= quantity; index++)
             {
                 // Konkatenacja +
                 // string line = index + "," + prefix + "-C9-6D-74-B5-6B," + DateTime.Now;
@@ -53,7 +55,7 @@ namespace KimballElectronics.CSharp.MACAddressGenerator
                 // Konkatenacja za pomocą string.Format()
                 // string line = string.Format("{0},{1}-C9-6D-74-B5-6B,{2}", index, prefix, DateTime.Now);
 
-                string macAddress = GetRandomMac(prefix);                
+                string macAddress = GetRandomMac(random, prefix);                
 
                 // Interpolacja
                 string line = $"{index},{macAddress},{DateTime.Now}";
@@ -105,10 +107,8 @@ namespace KimballElectronics.CSharp.MACAddressGenerator
 
 
         // metoda
-        static string GetRandomMac(string prefix, char separator = '-')     // parametr opcjonalny
+        static string GetRandomMac(Random random, string prefix, char separator = '-')     // parametr opcjonalny
         {
-            Random random = new Random();
-
             // https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings
             string segment4 = random.Next(0, 255).ToString("X");
             string segment5 = random.Next(0, 255).ToString("X");

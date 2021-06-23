@@ -62,8 +62,8 @@ namespace KimballElectronics.CSharp.SmartHome
 
                 lamp1 = new Lamp();
                 lamp1.serialNumber = "ABC123";
-                lamp1.voltage = 230;
-                lamp1.power = 2;
+                lamp1.Voltage = 230;
+                lamp1.Power = 2;
 
                 lamp1.IsPowerOn = true;
 
@@ -84,8 +84,8 @@ namespace KimballElectronics.CSharp.SmartHome
 
                 Lamp lamp2 = new Lamp();
                 lamp2.serialNumber = "BCA321";
-                lamp2.voltage = 230;
-                lamp2.power = 5;
+                lamp2.Voltage = 230;
+                lamp2.Power = 5;
 
                 lamp2.Switch();
 

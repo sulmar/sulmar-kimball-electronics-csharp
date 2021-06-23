@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KimballElectronics.CSharp.M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KimballElectronics.CSharp.SmartHome", "KimballElectronics.CSharp.SmartHome\KimballElectronics.CSharp.SmartHome.csproj", "{533B1B37-9266-4995-AF1B-905161BDC0C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KimballElectronics.FixStopper.Models", "KimballElectronics.FixStopper.Models\KimballElectronics.FixStopper.Models.csproj", "{F5787D47-6CD1-401A-9F91-63F0BDA984BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KimballElectronics.FixStopper.ConsoleClient", "KimballElectronics.FixStopper.ConsoleClient\KimballElectronics.FixStopper.ConsoleClient.csproj", "{5C1ACEA2-05C0-4D99-93B2-64B67F48D824}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{533B1B37-9266-4995-AF1B-905161BDC0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{533B1B37-9266-4995-AF1B-905161BDC0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{533B1B37-9266-4995-AF1B-905161BDC0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5787D47-6CD1-401A-9F91-63F0BDA984BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5787D47-6CD1-401A-9F91-63F0BDA984BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5787D47-6CD1-401A-9F91-63F0BDA984BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5787D47-6CD1-401A-9F91-63F0BDA984BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C1ACEA2-05C0-4D99-93B2-64B67F48D824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1ACEA2-05C0-4D99-93B2-64B67F48D824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C1ACEA2-05C0-4D99-93B2-64B67F48D824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C1ACEA2-05C0-4D99-93B2-64B67F48D824}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

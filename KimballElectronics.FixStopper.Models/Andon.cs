@@ -38,6 +38,7 @@ namespace KimballElectronics.FixStopper.Models
         }
     }
 
+    // Typ wyliczeniowy
     public enum AndonStatus
     {
         Ok,

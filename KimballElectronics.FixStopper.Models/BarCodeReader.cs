@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -57,5 +58,12 @@ namespace KimballElectronics.FixStopper.Models
 
             return barcode;
         }
+    }
+
+    public class AbcBarCodeReader
+    {
+        // Dodaj using System.Runtime.InteropServices;
+        [DllImport("barcodereader.dll")]        // sposób na zaimportowanie biblioteki DLL
+        public static extern string Scan(int codeType);     // deklarujemy tylko nagłówek metody
     }
 }

@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KimballElectronics.CSharp.L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KimballElectronics.CSharp.ProcessFile", "KimballElectronics.CSharp.ProcessFile\KimballElectronics.CSharp.ProcessFile.csproj", "{76773042-CF72-4450-B452-2366B78AE70D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KimballElectronics.CSharp.Sensors", "KimballElectronics.CSharp.Sensors\KimballElectronics.CSharp.Sensors.csproj", "{9628A8AC-63CA-4479-A647-D499438780F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KimballElectronics.MACGen.WinFormsClient", "KimballElectronics.MACGen.WinFormsClient\KimballElectronics.MACGen.WinFormsClient.csproj", "{0D293114-CC5E-4204-8A63-D620BC2C2ACF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{76773042-CF72-4450-B452-2366B78AE70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76773042-CF72-4450-B452-2366B78AE70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76773042-CF72-4450-B452-2366B78AE70D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9628A8AC-63CA-4479-A647-D499438780F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9628A8AC-63CA-4479-A647-D499438780F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9628A8AC-63CA-4479-A647-D499438780F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9628A8AC-63CA-4479-A647-D499438780F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D293114-CC5E-4204-8A63-D620BC2C2ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D293114-CC5E-4204-8A63-D620BC2C2ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D293114-CC5E-4204-8A63-D620BC2C2ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D293114-CC5E-4204-8A63-D620BC2C2ACF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

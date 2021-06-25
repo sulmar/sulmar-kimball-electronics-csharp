@@ -45,7 +45,9 @@
             this.TextBoxMACAddresses = new System.Windows.Forms.TextBox();
             this.GenerateMACAddressProgressBar = new System.Windows.Forms.ProgressBar();
             this.GeneratorBackgroundWorker = new System.ComponentModel.BackgroundWorker();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.InputQuantity)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // TextBoxPrefix
@@ -239,11 +241,21 @@
             this.GeneratorBackgroundWorker.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.GeneratorBackgroundWorker_ProgressChanged);
             this.GeneratorBackgroundWorker.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.GeneratorBackgroundWorker_RunWorkerCompleted);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::KimballElectronics.MACGen.WinFormsClient.Properties.Resources.sulmar;
+            this.pictureBox1.Location = new System.Drawing.Point(647, 24);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(144, 50);
+            this.pictureBox1.TabIndex = 15;
+            this.pictureBox1.TabStop = false;
+            // 
             // MACGenerator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(817, 808);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.GenerateMACAddressProgressBar);
             this.Controls.Add(this.TextBoxMACAddresses);
             this.Controls.Add(this.InputQuantity);
@@ -261,6 +273,7 @@
             this.Name = "MACGenerator";
             this.Text = "MAC Address Generator";
             ((System.ComponentModel.ISupportInitialize)(this.InputQuantity)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -284,6 +297,7 @@
         private System.Windows.Forms.TextBox TextBoxMACAddresses;
         private System.Windows.Forms.ProgressBar GenerateMACAddressProgressBar;
         private System.ComponentModel.BackgroundWorker GeneratorBackgroundWorker;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
